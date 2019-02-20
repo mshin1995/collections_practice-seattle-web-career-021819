@@ -25,9 +25,8 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string[2] == "$"
+    string[2] = "$"
   end
-  array
 end
 
 def find_a
