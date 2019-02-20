@@ -46,6 +46,6 @@ def add_s(array)
     if array[1] == string
       string
     else string << "s"
-  end
+    end
   end
 end
