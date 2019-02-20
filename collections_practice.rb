@@ -42,5 +42,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  array.map do |string|
+    if array[1] == string
+      string
+    else string << "s"
+  end
 end
